@@ -81,12 +81,12 @@ jobs:
                       echo "pnpm version: $(pnpm -v)"
                       echo "pm2 version: `pm2 -v`"
                       cd /var/asd/www/dev/react-admin/server
-                      docker stop mysql_V8
+                      docker stop mysql_v8
                       pm2 stop ecosystem.config.js
                       git fetch
                       git reset --hard origin/main
                       git pull
                       pnpm i
                       pnpm build
-                      docker start mysql_V8
+                      docker start mysql_v8
                       pm2 start ecosystem.config.js
