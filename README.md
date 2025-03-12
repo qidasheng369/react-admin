@@ -12,11 +12,11 @@
 
 - 🍃 用户名：**admin**，密码：**abc123456**
 
-- [🪹 github 仓库地址](https://github.com/baiwumm/react-admin/)
+- [🪹 github 仓库地址](https://github.com/qidasheng369/react-admin/)
 
-- [🪺 码云仓库地址](https://gitee.com/baiwumm/react-admin/)
+- [🪺 码云仓库地址](https://gitee.com/qidasheng369/react-admin/)
 
-- [🍀 Swagger 接口文档](https://react.baiwumm.com/docs)
+- [🍀 Swagger 接口文档](https://react-admin.xworker.icu/docs)
 
 - ❤️ Star：**如果可以的话，请顺手给个star，表示对作者的鼓励，万分感谢！**
 
@@ -52,7 +52,7 @@ DATABASE_LIB =  react-admin
 
 2. 拉取项目代码
 ```poswrshell
-git clone https://github.com/baiwumm/react-admin.git
+git clone https://github.com/qidasheng369/react-admin.git
 cd react-admin
 // 进入前端
 cd Xmw_web
@@ -148,8 +148,8 @@ pnpm build
 ## 🍄 总结
 1. 本项目没有经过严格的测试，有可能存在一定的 `Bug`。
 2. 本项目仅供学习交流使用，请勿用于商业用途。
-3. 欢迎提交 [Issues](https://github.com/baiwumm/react-admin/issues) 和 [PR](https://github.com/baiwumm/react-admin/pulls)，一起完善本项目。
+3. 欢迎提交 [Issues](https://github.com/qidasheng369/react-admin/issues) 和 [PR](https://github.com/qidasheng369/react-admin/pulls)，一起完善本项目。
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=baiwumm/react-admin&type=Date)](https://star-history.com/#baiwumm/react-admin&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=qidasheng369/react-admin&type=Date)](https://star-history.com/#qidasheng369/react-admin&Date)

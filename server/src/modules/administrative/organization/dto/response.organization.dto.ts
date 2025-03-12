@@ -30,7 +30,7 @@ export class ResponseOrganizationDto extends ResponseDto {
         describe:
           '阿里巴巴集团控股有限公司（简称：阿里巴巴集团）是马云带领下的18位创始人于1999年在浙江省杭州市创立的公司。',
         founder: 'bf75a509-f90e-4a29-8bf7-470b581550f6',
-        founder_name: '谢明伟',
+        founder_name: '齐大胜',
         status: 1,
         sort: 1,
         created_time: '2022-09-15 07:35:08',

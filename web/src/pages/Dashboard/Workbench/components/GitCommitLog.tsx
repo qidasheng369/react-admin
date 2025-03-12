@@ -29,7 +29,7 @@ const GitCommitLog: FC = () => {
  */
   const { data: commitList, loading: commitLoading } = useRequest(
     async () => {
-      const response = await fetch('https://api.github.com/repos/baiwumm/Xmw-Admin/commits?page=1&per_page=10')
+      const response = await fetch('https://api.github.com/repos/qidasheng369/react-admin/commits?page=1&per_page=10')
       if (isSuccess(response.status)) {
         const result = await response.json()
         return result

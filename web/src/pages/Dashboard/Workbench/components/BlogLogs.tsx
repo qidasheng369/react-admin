@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Author: 白雾茫茫丶
  * @Date: 2023-10-11 10:02:20
- * @LastEditors: 白雾茫茫丶<baiwumm.com>
- * @LastEditTime: 2024-07-08 15:40:42
+ * @LastEditors: 齐大胜 782395122@qq.com
+ * @LastEditTime: 2025-03-11 22:35:41
  */
 import { Icon, useIntl } from '@umijs/max';
 import { useMount, useRequest } from 'ahooks';
@@ -49,7 +49,7 @@ const BlogLogs: FC<BlogLogsProps> = ({ renderSecondary }) => {
   useMount(() => {
     fetchArticleList({
       sort_type: 2,
-      user_id: '1917147257534279',
+      user_id: '984795790719005',
       cursor: '0',
     });
   });
@@ -66,14 +66,14 @@ const BlogLogs: FC<BlogLogsProps> = ({ renderSecondary }) => {
           onChange: (page, pageSize) => {
             fetchArticleList({
               sort_type: 2,
-              user_id: '1917147257534279',
+              user_id: '984795790719005',
               cursor: toString(pageSize * (page - 1)),
             });
           },
         }}
         dataSource={take(get(articleList, 'list', []), 5)}
         loading={articleLoading}
-        renderItem={({ article_id, article_info, tags = [] }) => (
+        renderItem={({ article_id, article_info, author_user_info, tags = [] }) => (
           <List.Item
             key={article_id}
             actions={[
@@ -86,8 +86,9 @@ const BlogLogs: FC<BlogLogsProps> = ({ renderSecondary }) => {
             <List.Item.Meta
               avatar={
                 <Tooltip title={formatMessage({ id: formatPerfix(ROUTES.WORKBENCH, 'blog-tip') })}>
-                  <a href="https://baiwumm.com/" target="_blank">
-                    <Avatar src="https://cdn.baiwumm.com/avatar.jpg" />
+                  <a href="https://xworker.icu/" target="_blank">
+                    {/* <Avatar src="https://cdn.baiwumm.com/avatar.jpg" /> */}
+                    <Avatar src={author_user_info?.avatar_large} />
                   </a>
                 </Tooltip>
               }

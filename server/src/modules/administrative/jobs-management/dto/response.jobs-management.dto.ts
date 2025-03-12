@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Author: 白雾茫茫丶
  * @Date: 2022-10-21 10:59:21
- * @LastEditors: 白雾茫茫丶
- * @LastEditTime: 2023-09-28 15:37:34
+ * @LastEditors: 齐大胜 782395122@qq.com
+ * @LastEditTime: 2025-03-11 22:00:18
  */
 import { ApiProperty } from '@nestjs/swagger';
 
@@ -28,7 +28,7 @@ export class ResponseJobsDto extends ResponseDto {
         leader: 'bf75a509-f90e-4a29-8bf7-470b581550f6',
         describe: '研发工程师',
         founder: 'bf75a509-f90e-4a29-8bf7-470b581550f6',
-        founder_name: '谢明伟',
+        founder_name: '齐大胜',
         sort: 1,
         created_time: '2022-09-23 15:43:47',
         updated_time: null,

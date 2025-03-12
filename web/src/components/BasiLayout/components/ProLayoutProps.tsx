@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Author: 白雾茫茫丶
  * @Date: 2023-09-14 15:16:33
- * @LastEditors: 白雾茫茫丶<baiwumm.com>
- * @LastEditTime: 2024-10-14 10:09:26
+ * @LastEditors: 齐大胜 782395122@qq.com
+ * @LastEditTime: 2025-03-11 22:41:47
  */
 import { HeaderProps } from '@ant-design/pro-components';
 import { Icon } from '@umijs/max';
@@ -19,10 +19,10 @@ const renderIcon = (icon: UmiIcon, color: string) => (
 /* 跨站点导航列表 */
 export const appList: HeaderProps['appList'] = [
   {
-    icon: 'https://cdn.baiwumm.com/avatar.jpg',
-    title: '白雾茫茫丶',
-    desc: '记录学习、生活和有趣的事',
-    url: 'https://baiwumm.com/',
+    icon: 'https://react-admin.xworker.icu/static/image/2023-09-12/abf837e0-d149-48f0-8d0a-c078d74adfff.jpeg',
+    title: '齐大胜',
+    desc: '记录学习，记录生活',
+    url: 'https://xworker.icu/',
     target: '_blank',
   },
   {
@@ -55,9 +55,9 @@ export const appList: HeaderProps['appList'] = [
   },
   {
     icon: renderIcon('local:juejin', '#006CFF'),
-    title: '白雾茫茫丶',
+    title: '大胜的掘金',
     desc: '星光不问赶路人，岁月不负有心人',
-    url: 'https://juejin.cn/user/1917147257534279/',
+    url: 'https://juejin.cn/user/984795790719005/',
     target: '_blank',
   },
   {

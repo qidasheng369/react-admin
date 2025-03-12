@@ -28,7 +28,7 @@ const ActionButtons: FC = () => {
       {/* Github issues*/}
       <FloatButton
         icon={<Icon icon="ri:questionnaire-line" />}
-        onClick={() => window.open('//github.com/baiwumm/Xmw-Admin/issues')}
+        onClick={() => window.open('//github.com/qidasheng369/react-admin/issues')}
         tooltip={formatMessage({ id: `${INTERNATION.BASICLAYOUT}.ActionButtons.github-issues` })}
       />
       {/* 项目文档 */}

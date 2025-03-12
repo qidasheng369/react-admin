@@ -11,7 +11,7 @@
 
 1. 拉取项目代码
 ```bash
-git clone https://github.com/baiwumm/Xmw-Admin.git
+git clone https://github.com/qidasheng369/react-admin.git
 cd Xmw-Admin
 cd Xmw_web
 ```

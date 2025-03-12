@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Author: 白雾茫茫丶
  * @Date: 2023-10-19 14:56:08
- * @LastEditors: 白雾茫茫丶
- * @LastEditTime: 2023-10-26 17:43:50
+ * @LastEditors: 齐大胜 782395122@qq.com
+ * @LastEditTime: 2025-03-11 22:47:42
  */
 import { Icon, useIntl } from '@umijs/max';
 import { useRequest } from 'ahooks';
@@ -33,7 +33,7 @@ const ProjectRecommend: FC = () => {
    */
   const { data: repositoryList, loading: repositoryListLoading } = useRequest(async () => {
     const response = await fetch(
-      'https://api.github.com/users/baiwumm/repos?sort=updated&page=1&per_page=5',
+      'https://api.github.com/users/qidasheng369/repos?sort=updated&page=1&per_page=5',
     );
     if (isSuccess(response.status)) {
       const result = await response.json();

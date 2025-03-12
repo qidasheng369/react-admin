@@ -3,8 +3,8 @@
  * @Version: 2.0
  * @Author: 白雾茫茫丶
  * @Date: 2022-10-24 13:12:14
- * @LastEditors: 白雾茫茫丶<baiwumm.com>
- * @LastEditTime: 2024-11-18 09:54:58
+ * @LastEditors: 齐大胜 782395122@qq.com
+ * @LastEditTime: 2025-03-11 21:43:13
  */
 import { Module } from '@nestjs/common';
 import { ConfigModule, ConfigService } from '@nestjs/config';
@@ -54,4 +54,4 @@ import DatabaseConfig from './config/database'; // 数据库配置
     CommonModule,
   ],
 })
-export class AppModule { }
+export class AppModule {}
